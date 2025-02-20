@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-scroll";
-import Photo from "../imgs/about.jpg.webp";
+import Photo from "../imgs/Aaditya.jpg";
 
 function Snav() {
   const [hoverData, setHoverData] = useState(false);
