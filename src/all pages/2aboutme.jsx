@@ -10,22 +10,21 @@ function AboutMe() {
 
       <div className="py-10">
         <p>
-          <span className="font-bold"> Hi I'm Jackson Ford </span>
-          On her way she met a copy. The copy warned the Little Blind Text, that
-          where it came from it would have been rewritten a thousand times and
-          everything that was left from its origin would be the word "and" and
-          the Little Blind Text should turn around and return to its own, safe
-          country.
+          <span className="font-bold"> Hi I'm Aaditya Aryal</span>A passionate
+          programmer with experience in full-stack web development, UI/UX
+          design, game development, and mobile app development. Currently
+          pursuing a diploma in Computer Programming at Conestoga College, I am
+          eager to explore Data Science and Quantum Computing.
         </p>
-        <p>
+        {/* <p>
           Even the all-powerful Pointing has no control about the blind texts it
           is an almost unorthographic life One day however a small line of blind
           text by the name of Lorem Ipsum decided to leave for the far World of
           Grammar.
-        </p>
+        </p> */}
       </div>
-      <div className="py-10 flex justify-around">
-        {/* graphic design, software, web design, application  */}
+      {/*<div className="py-10 flex justify-around">
+        graphic design, software, web design, application
         <div className="w-36 h-36 bg-red-500"></div>
         <div className="w-36 h-36 bg-red-500"></div>
         <div className="w-36 h-36 bg-red-500"></div>
@@ -40,7 +39,7 @@ function AboutMe() {
         <div className="w-fit h-fit border-[1.5px] px-2 py-1 cursor-pointer">
           HIRE ME
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }

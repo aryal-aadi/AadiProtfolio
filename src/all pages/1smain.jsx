@@ -1,31 +1,62 @@
-import React from "react";
-import { PiDownloadSimple } from "react-icons/pi";
+import React, { useRef } from "react";
+import Intro from "./1intro";
 import AboutMe from "./2aboutme";
 import WhatIDO from "./3whatido";
 import Skills from "./4skill";
-function Main() {
+import Edu from "./5edu";
+import Exp from "./6exp";
+import Cont from "./9cont";
+
+function Main({ setSectionRefs }) {
+  // Creating Refs for Each Section
+  const sections = {
+    intro: useRef(null),
+    aboutMe: useRef(null),
+    whatIdo: useRef(null),
+    mySkills: useRef(null),
+    myEdu: useRef(null),
+    myExp: useRef(null),
+    myCont: useRef(null),
+  };
+
+  // Pass refs to parent
+  setSectionRefs(sections);
+
   return (
-    <div className="w-3/4 h-screen relative left-64">
-      <div className="w-full h-full bg-slate-500 px-7 flex flex-col justify-center gap-2">
-        <div className="ima font-main text-5xl font-extrabold">
-          I Am <br /> a Seeker
-        </div>
-        <div className="intro text-white text-[18px] font-extralight font-mono">
-          ya this is it, below all are not true
-        </div>
-        <div className="flex border w-fit px-4 py-2 cursor-pointer content-evenly gap-2 border-black hover:border-white hover:text-white transition-all duration-300">
-          <p className="">Download CV</p>
-          <div className="downCVlogo">
-            <PiDownloadSimple className="text-lg" />
-          </div>
-        </div>
+    <div className="w-full h-screen overflow-auto">
+      <div ref={sections.intro} id="intro" className="w-full min-h-screen">
+        <Intro />
       </div>
-      <div className="py-0">
+
+      <div ref={sections.aboutMe} id="aboutMe" className="w-full min-h-screen">
         <AboutMe />
+      </div>
+
+      <div ref={sections.whatIdo} id="whatIdo" className="w-full min-h-screen">
         <WhatIDO />
+      </div>
+
+      <div
+        ref={sections.mySkills}
+        id="mySkills"
+        className="w-full min-h-screen"
+      >
         <Skills />
+      </div>
+
+      <div ref={sections.myEdu} id="myEdu" className="w-full min-h-screen">
+        <Edu />
+      </div>
+
+      <div ref={sections.myExp} id="myExp" className="w-full min-h-screen">
+        <Exp />
+      </div>
+
+      <div ref={sections.myCont} id="myCont" className="w-full min-h-screen">
+        <Cont />
       </div>
     </div>
   );
 }
+
 export default Main;
