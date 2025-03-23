@@ -10,7 +10,7 @@ This is my personal portfolio website to showcase my skills, projects, education
 - **Frontend:** HTML, CSS, JavaScript  
 
 - **Framework (if using one):** React.js, TailwindCSS
-- **Deployment:** GitHub Pages / Vercel / Netlify
+- **Deployment:** GitHub Pages / Netlify
 
 ## 📁 Folder Structure
 protfolio|
