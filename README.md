@@ -19,3 +19,9 @@ protfolio|
                 |--all pages
                 |--imgs
          
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+> 📝 **Why I chose MIT:**  
+> MIT is a permissive open-source license that allows others to use, modify, distribute, and even use my code commercially. I chose it because I want others to learn from or build on my portfolio without restrictions, while still limiting my legal liability.
