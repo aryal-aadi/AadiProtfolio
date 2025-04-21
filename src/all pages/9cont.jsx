@@ -5,9 +5,7 @@ function Cont() {
     <div className="px-7 py-10">
       <div className="text-2xl font-semibold">CONTACT</div>
       <div className="py-7 flex flex-col gap-5">
-        <p className="text-gray-700">
-          📍 318 Garth Massey Drive, Cambridge, ON
-        </p>
+        <p className="text-gray-700">📍</p>
         <p className="text-gray-700">
           📧 Email:{" "}
           <a
@@ -17,7 +15,7 @@ function Cont() {
             aadityaaryal201711@gmail.com
           </a>
         </p>
-        <p className="text-gray-700">📞 Phone: (226) 880-4646</p>
+        <p className="text-gray-700">📞 </p>
         <p className="text-gray-700">
           🔗 LinkedIn:{" "}
           <a
