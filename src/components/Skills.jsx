@@ -12,7 +12,10 @@ function Skills() {
     "Time Management",
   ];
   return (
-    <div className="w-full h-screen bg-slate-700 px-7 py-3 flex-col content-center">
+    <div
+      id="Skills"
+      className="w-full h-screen bg-slate-700 px-7 py-3 flex-col content-center"
+    >
       <div>
         <div className="text-sm font-thin py-6">MY SPECIALITY</div>
         <div className="text-2xl font-semibold">MY SKILLS</div>

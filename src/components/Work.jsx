@@ -1,7 +1,7 @@
 import React from "react";
 
 function Work() {
-  return <div></div>;
+  return <div id="Work"></div>;
 }
 
 export default Work;

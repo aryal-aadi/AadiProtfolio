@@ -2,7 +2,7 @@ import React from "react";
 
 function Edu() {
   return (
-    <div className="w-full h-screen bg-slate-300 px-7 py-3">
+    <div id="Edu" className="w-full h-screen bg-slate-300 px-7 py-3">
       <div className="text-2xl font-semibold">EDUCATION</div>
       <div className="py-5">
         <p>

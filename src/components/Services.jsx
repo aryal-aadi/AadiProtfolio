@@ -2,7 +2,7 @@ import React from "react";
 
 function WhatIDO() {
   return (
-    <div className="w-full h-screen bg-slate-300 px-7 py-3">
+    <div id="WhatIDO" className="w-full h-screen bg-slate-300 px-7 py-3">
       <div>
         <div className="text-sm font-thin py-6">WHAT I DO</div>
         <div className="text-2xl font-semibold">

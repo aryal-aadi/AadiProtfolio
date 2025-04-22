@@ -69,6 +69,14 @@ function Snav() {
         )}
       </button>
 
+      {/* Overlay background when menu is open on mobile */}
+      {menuOpen && (
+        <div
+          className="lg:hidden fixed inset-0 bg-black/40 backdrop-blur-sm z-30"
+          onClick={() => setMenuOpen(false)}
+        ></div>
+      )}
+
       {/* Sidebar - Mobile Slide In */}
       <div
         className={`lg:hidden fixed top-0 left-0 h-full w-64 bg-slate-100 shadow-md z-40 transform transition-transform duration-300 ease-in-out ${
@@ -112,7 +120,7 @@ function Snav() {
         <img
           src={Photo}
           alt="Aaditya Aryal"
-          className="rounded-full h-48 w-48 object-cover border-2 border-blue-400"
+          className="rounded-full h-48 w-48 hover:h-64 hover:w-64 hover:border-red-700 object-cover border-2 border-blue-400 transition-all"
         />
         <div className="mt-4 text-center">
           <p className="font-bold text-xl"> Aaditya Aryal</p>
@@ -120,9 +128,9 @@ function Snav() {
           <p className="text-xs text-gray-600"> FROM NEPAL </p>
         </div>
 
-        <nav className="mt-8 w-full">
+        <nav className="mt-5 w-full">
           {navItems.map((item, index) => (
-            <div key={index} className="my-2">
+            <div key={index} className="my-1">
               <Link
                 to={item.id}
                 smooth={true}

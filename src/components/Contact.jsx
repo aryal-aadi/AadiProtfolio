@@ -2,7 +2,7 @@ import React from "react";
 
 function Cont() {
   return (
-    <div className="px-7 py-10">
+    <div id="Cont" className="px-7 py-10">
       <div className="text-2xl font-semibold">CONTACT</div>
       <div className="py-7 flex flex-col gap-5">
         <p className="text-gray-700">📍</p>
@@ -19,10 +19,10 @@ function Cont() {
         <p className="text-gray-700">
           🔗 LinkedIn:{" "}
           <a
-            href="https://www.linkedin.com/in/aaditya-aryal/"
+            href="https://www.linkedin.com/in/aryal-aaditya/"
             className="text-blue-500 hover:underline"
           >
-            linkedin.com/in/aaditya-aryal
+            linkedin.com/in/aryal-aaditya
           </a>
         </p>
       </div>

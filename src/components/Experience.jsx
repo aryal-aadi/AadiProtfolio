@@ -22,7 +22,7 @@ function Exp() {
     },
   ];
   return (
-    <div className="w-full h-screen bg-slate-300 px-7 py-3">
+    <div id="Exp" className="w-full h-screen bg-slate-300 px-7 py-3">
       <div className="text-2xl font-semibold">EXPERIENCE</div>
       <div className="py-5">
         {experiences.map((exp, index) => (
