@@ -1,19 +1,11 @@
-import FullPage from "./all pages/0mhome";
-
-
-
-
-
+import FullPage from "./layout/FullPage";
 
 function App() {
   return (
     <>
-    <div>
-      <FullPage />
-    </div>
-    
-    
-    
+      <div>
+        <FullPage />
+      </div>
     </>
   );
 }
