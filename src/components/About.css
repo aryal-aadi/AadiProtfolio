@@ -1,0 +1,28 @@
+/* Parallax Background */
+.bg-parallax {
+  background-image: url("https://via.placeholder.com/1920x1080"); /* Replace with your image */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateZ(0);
+  z-index: -1;
+}
+
+/* Fade-In Effect */
+.fade-in-target {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover Effect */
+span:hover {
+  color: #3b82f6; /* Tailwind's blue-500 */
+  cursor: pointer;
+}
